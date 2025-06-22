@@ -1,5 +1,9 @@
 # SchemaCompass 🧭
 
+<a href="https://www.buymeacoffee.com/leonardocx" target="_blank">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me a Coffee" style="height: 60px !important;width: 217px !important;">
+</a>
+
 **SchemaCompass: A Bússola de IA para navegar, entender e documentar a complexidade de qualquer esquema de banco de dados.**
 
 ## O Problema
@@ -123,3 +127,5 @@ Se você utilizar a arquitetura, o conceito ou o código do SchemaCompass em seu
 
 ## 📜 Licença
 Este projeto está sob a Licença MIT. Veja o arquivo LICENSE para mais detalhes.
+
+
