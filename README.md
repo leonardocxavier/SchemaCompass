@@ -45,7 +45,7 @@ O poder do SchemaCompass não reside apenas no código, mas na arquitetura de co
 3.  **Execute:**
     Dê permissão de execução ao script e rode-o:
     ```bash
-    chmod +x seu_script.sh
+    chmod +x SchemaCompass.sh
     ./SchemaCompass.sh
     ```
     O mapa será gerado no arquivo `mapa_producao.jsonl`.
