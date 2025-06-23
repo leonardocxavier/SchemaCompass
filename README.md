@@ -29,7 +29,7 @@ O poder do SchemaCompass não reside apenas no código, mas na arquitetura de co
 
 1.  **Mapeamento Semântico vs. Estrutural:** Diferente de ferramentas tradicionais que apenas extraem a estrutura, o SchemaCompass foca no *significado*. Ele utiliza um LLM para inferir o propósito de negócio de cada tabela e campo, criando um mapa semântico.
 2.  **Enriquecimento Granular:** A IA é utilizada de forma cirúrgica, campo a campo, em um processo de enriquecimento. Isso garante descrições contextuais e de alta qualidade, uma abordagem que chamamos de "Lógica Zero na IA", onde o controle do fluxo permanece no código e a IA é usada para tarefas de criatividade focada.
-3.  **O Mapa como DNA:** O arquivo `.jsonl` resultante não é o fim, mas o começo. Ele é projetado para ser o "DNA" ou a "Constituição" para sistemas de IA de nível superior, como assistentes conversacionais e ferramentas de migração, que podem ler este mapa para entender e operar sobre o banco de dados de forma autônoma.
+3.  **O Mapa como DNA:** O arquivo `.json` resultante não é o fim, mas o começo. Ele é projetado para ser o "DNA" ou a "Constituição" para sistemas de IA de nível superior, como assistentes conversacionais e ferramentas de migração, que podem ler este mapa para entender e operar sobre o banco de dados de forma autônoma.
 
 ## 🚀 Como Usar
 
