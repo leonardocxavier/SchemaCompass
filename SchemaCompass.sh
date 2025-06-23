@@ -11,9 +11,10 @@ MYSQL_DB="NomeDoSeuBancoDeDados" # Substitua pelo nome do seu banco de dados
 # Certifique-se de que o banco de dados existe e está acessível
 # Você pode definir a variável MYSQL_DB como um argumento de linha de comando, se preferir
 
-OLLAMA_MODEL="llama3.2:1b" # Modelo de IA a ser usado
+OLLAMA_MODEL="llama3.2:1b" # Modelo usado nos testes, mas você pode usar outro modelo
 # Certifique-se de que o modelo está instalado e acessível via Ollama
 # Você pode alterar o modelo conforme necessário, mas certifique-se de que ele suporta prompts em
+# português e tenha uma licença de uso adequada, como o modelo de IA do Ollama
 ARQUIVO_SAIDA="mapa_producao.json" # Arquivo de saída para o mapeamento
 # Você pode alterar o nome do arquivo de saída conforme necessário
 
