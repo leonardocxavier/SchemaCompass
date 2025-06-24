@@ -148,18 +148,7 @@ jq -s '.' "$ARQUIVO_MAPA" > "$ARQUIVO_MAPA_TEMP_JSON"
             ((in_degree["$target_table"]++))
         done < <(echo "$table_obj" | jq -r '.dependencias[].aponta_para')
     done < <(jq -c '.[]' "$ARQUIVO_MAPA_TEMP_JSON")
-
-    echo "==========================================================================="
-    echo "      Análise de Centralidade de Tabelas do Banco de Dados"
-    echo "==========================================================================="
-    printf "%-5s %-30s %-35s %-20s\n" "Pos." "Tabela" "Conexões de Entrada (Centralidade)" "Conexões de Saída"
-    echo "---------------------------------------------------------------------------"
-    sorted_output=$({ for table in "${!in_degree[@]}"; do echo "${in_degree[$table]} ${out_degree[$table]} $table"; done } | sort -k1,1nr -k2,2n)
-    echo "$sorted_output" | awk '{ printf "%-5s %-30s %-35s %-20s\n", NR, $3, $1, $2 }'
-    echo "==========================================================================="
-    
-    # ... (código de validação omitido por brevidade, mas funciona da mesma forma) ...
-
+    echo "Análise de fluxo concluída."
 } > "$ARQUIVO_ANALISE"
 
 # --- Limpeza ---
