@@ -15,13 +15,13 @@ OLLAMA_MODEL="llama3.2:1b" # Modelo usado nos testes, mas você pode usar outro 
 # Você pode alterar o modelo conforme necessário, mas certifique-se de que ele suporta prompts em
 # português e tenha uma licença de uso adequada, como o modelo de IA do Ollama
 # --- ARQUIVOS DE SAÍDA ---
-ARQUIVO_MAPA="mapa_producao.json" // Arquivo de saída para o mapeamento
+ARQUIVO_MAPA="mapa_producao.json" # Arquivo de saída para o mapeamento
 
 # --- ARQUIVO TEMPORÁRIO PARA ANÁLISE ---
 # Usado para converter o JSONL em um array JSON válido para análise posterior
 # Isso é necessário para evitar problemas de formatação e garantir que a análise funcione corretamente
 # O arquivo temporário é removido ao final do script
-ARQUIVO_ANALISE="analise_fluxo.txt" // Arquivo de saída para a análise de fluxo
+ARQUIVO_ANALISE="analise_fluxo.txt" # Arquivo de saída para a análise de fluxo
 
 # --- ARQUIVO TEMPORÁRIO PARA MAPA ---
 # Usado para armazenar o mapa semântico detalhado antes da análise
